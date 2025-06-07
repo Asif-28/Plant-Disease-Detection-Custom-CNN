@@ -1,0 +1,6 @@
+Flask==2.3.2
+flask-cors==4.0.0
+tensorflow==2.15.0.post1
+Pillow==10.0.1
+numpy==1.26.3
+gunicorn==21.2.0

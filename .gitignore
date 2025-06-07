@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+/frontend/node_modules/
+/backend/node_modules/
+/.pnp
+.pnp.js
+
+# Model files (large files)
+/backend/model/*.h5
+/backend/model/*.pkl
+/backend/model/*.joblib
+
+# Keep model directory structure
+!/backend/model/
+!/backend/model/README.md
+!/backend/model/class_indices.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Misc
+.DS_Store
+.vscode/
+.idea/
